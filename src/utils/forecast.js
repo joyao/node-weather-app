@@ -19,6 +19,7 @@ const forecast = (lon, lat, cb) => {
                 weather_descriptions: body.current.weather_descriptions[0],
                 temperature: body.current.temperature,
                 humidity: body.current.humidity,
+                cloudcover: body.current.cloudcover,
             });
         }
     });

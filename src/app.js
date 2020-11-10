@@ -74,6 +74,8 @@ app.get("/weather", (req, res) => {
                         forecastdata.temperature +
                         " degrees out. The humidity is " +
                         forecastdata.humidity +
+                        "%. The cloudcover is " +
+                        forecastdata.cloudcover +
                         "%.",
                     location,
                     address: forecastdata,
